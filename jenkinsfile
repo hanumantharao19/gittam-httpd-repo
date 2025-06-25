@@ -4,7 +4,7 @@ agent any
 stages {
     stage('first stage') {
         steps {
-            sh 'tocuh demo.txt'
+            sh 'touch demo.txt'
         }
     }
    
