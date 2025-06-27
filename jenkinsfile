@@ -13,4 +13,12 @@ stages {
         }
     }
 }
+
+
+ stage('second stage') {
+        steps {
+            sh 'touch demo2.txt'
+        }
+    }
+}
 }
